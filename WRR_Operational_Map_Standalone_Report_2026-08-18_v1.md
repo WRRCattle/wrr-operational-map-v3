@@ -2,13 +2,13 @@
 
 **Prepared:** 18 August 2026 HST
 
-**Status:** Published and validated
+**Status:** Version 3 prepared for publication and validation
 
 **Source commit:** `62ccf97ab6ba4a2203eba65c85c6bb284b332a6b`
 
 **Third map:** <https://WRRCattle.github.io/wrr-operational-map-v3/>
 
-**Version 2 change:** Every overlay toggle loads off by default; the satellite basemap remains visible.
+**Version 3 change:** The combined 10-acre channel network is split into separate default-off toggles for Gate Creek, Rock Creek, 3 Mile Creek, and Badger Creek.
 
 ## Purpose
 
@@ -17,6 +17,8 @@ Create a third public map containing the discussed updates to the original opera
 ## Scope
 
 The standalone copy contains the current operational-map interface, embedded WRR/ALR reference layers, Rock Creek and Badger Creek watershed zones, full-watershed native-detail LiDAR terrain, the complete current Grasshopper Fire context, current burned-watershed terrain exposure, and watershed slope-class tiles. The lower-left “The property” summary card remains hidden.
+
+The channel split uses the existing four component catchments. Each of the 1,617 D8-derived channel segments is assigned by its downstream endpoint to exactly one component: Gate Creek 200, Rock Creek 316, 3 Mile Creek 224, and Badger Creek 877. This is a planning classification of the derived network, not a surveyed stream-centerline determination.
 
 ## Source Limitations Preserved
 
@@ -31,8 +33,4 @@ The original `WRRCattle/wrr-operational-map` repository was cloned read-only at 
 
 ## Validation
 
-- GitHub Pages deployment completed successfully.
-- The public page and representative current-fire, terrain-exposure, slope, and native-terrain assets returned HTTP 200.
-- The public `index.html` SHA-256 exactly matched the vault copy: `e3c232c11c36c67696c7ed5f8dbafeb76ac8dffc1bfdf4eb3e02558bd5a8cd35`.
-- A public headless-browser test confirmed all 41 overlay toggles load off, the satellite basemap remains active, and no page errors occur.
-- The lower-left property summary computed to `display: none`.
+Publication and public browser validation are recorded after the Version 3 deployment.

@@ -1,8 +1,8 @@
 {
   "title": "WRR / ALR Operational Map — Standalone Safety Copy",
   "prepared": "2026-08-18",
-  "deliverable_version": 2,
-  "status": "published and validated",
+  "deliverable_version": 3,
+  "status": "prepared for publication and validation",
   "source_repository": "https://github.com/WRRCattle/wrr-operational-map",
   "source_commit": "62ccf97ab6ba4a2203eba65c85c6bb284b332a6b",
   "public_repository": "https://github.com/WRRCattle/wrr-operational-map-v3",
@@ -15,14 +15,18 @@
     "Full current 17 August 2026 WFIGS Grasshopper Fire perimeter",
     "Current burned-watershed terrain exposure",
     "Approximately 3-foot slope display grid with native-source limitation",
+    "Four separate default-off 10-acre channel-network toggles for Gate Creek, Rock Creek, 3 Mile Creek, and Badger Creek",
     "Lower-left property summary card hidden"
   ],
-  "validation": {
-    "github_pages_deployment": "pass",
-    "public_map_http_status": 200,
-    "public_index_sha256": "e3c232c11c36c67696c7ed5f8dbafeb76ac8dffc1bfdf4eb3e02558bd5a8cd35",
-    "source_index_sha256": "e3c232c11c36c67696c7ed5f8dbafeb76ac8dffc1bfdf4eb3e02558bd5a8cd35",
-    "public_headless_browser": "pass; all 41 overlay toggles off; satellite basemap active; no page errors; property summary display none",
-    "representative_public_assets": "pass; current fire data, exposure image, slope tile, and terrain tile returned HTTP 200"
-  }
+  "channel_network_split": {
+    "classification_method": "Each derived segment is assigned by its downstream endpoint to exactly one documented component catchment.",
+    "total_segments": 1617,
+    "segment_counts": {
+      "gate_creek": 200,
+      "rock_creek": 316,
+      "three_mile_creek": 224,
+      "badger_creek": 877
+    }
+  },
+  "validation": {}
 }
