@@ -2,7 +2,7 @@
 
 **Prepared:** 18 August 2026 HST
 
-**Status:** Version 3 prepared for publication and validation
+**Status:** Version 3 published and validated
 
 **Source commit:** `62ccf97ab6ba4a2203eba65c85c6bb284b332a6b`
 
@@ -33,4 +33,8 @@ The original `WRRCattle/wrr-operational-map` repository was cloned read-only at 
 
 ## Validation
 
-Publication and public browser validation are recorded after the Version 3 deployment.
+- GitHub Pages deployment completed successfully from commit `e595ad090918c897f6e953ba4f196e483783d2ee`.
+- The live `index.html` SHA-256 matched the vault copy: `9870d979eb57bdc332b289d3d52ab15a28bbdf50e249f427036743963cae0e3e`.
+- The live channel-network and component-catchment assets returned HTTP 200.
+- A public headless-browser test confirmed all 44 overlay toggles load off and no page errors occur.
+- Each creek toggle independently added and removed its expected layer: Gate Creek 200 segments, Rock Creek 316, 3 Mile Creek 224, and Badger Creek 877.

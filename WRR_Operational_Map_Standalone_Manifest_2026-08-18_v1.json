@@ -2,7 +2,7 @@
   "title": "WRR / ALR Operational Map — Standalone Safety Copy",
   "prepared": "2026-08-18",
   "deliverable_version": 3,
-  "status": "prepared for publication and validation",
+  "status": "published and validated",
   "source_repository": "https://github.com/WRRCattle/wrr-operational-map",
   "source_commit": "62ccf97ab6ba4a2203eba65c85c6bb284b332a6b",
   "public_repository": "https://github.com/WRRCattle/wrr-operational-map-v3",
@@ -28,5 +28,13 @@
       "badger_creek": 877
     }
   },
-  "validation": {}
+  "validation": {
+    "github_pages_deployment": "pass",
+    "deployment_commit": "e595ad090918c897f6e953ba4f196e483783d2ee",
+    "public_map_http_status": 200,
+    "public_index_sha256": "9870d979eb57bdc332b289d3d52ab15a28bbdf50e249f427036743963cae0e3e",
+    "source_index_sha256": "9870d979eb57bdc332b289d3d52ab15a28bbdf50e249f427036743963cae0e3e",
+    "public_headless_browser": "pass; all 44 overlay toggles off; each creek channel toggle independently adds and removes its expected feature count; no page errors",
+    "channel_assets": "pass; grouped channel-network JavaScript and component-catchment GeoJSON returned HTTP 200"
+  }
 }
