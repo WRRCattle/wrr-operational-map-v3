@@ -1,6 +1,8 @@
 # WRR / ALR Operational Map — Standalone Safety Copy
 
-This is the third, independently published map requested on 18 August 2026. It is derived from the original WRR / ALR operational map at source commit `62ccf97ab6ba4a2203eba65c85c6bb284b332a6b` and does not modify the original repository or URL.
+This is version 2 of the third, independently published map requested on 18 August 2026. It is derived from the original WRR / ALR operational map at source commit `62ccf97ab6ba4a2203eba65c85c6bb284b332a6b` and does not modify the original repository or URL.
+
+All overlay toggles now load off by default. The satellite basemap remains visible so the map does not open blank.
 
 ## Included Updates
 

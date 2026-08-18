@@ -8,6 +8,8 @@
 
 **Third map:** <https://WRRCattle.github.io/wrr-operational-map-v3/>
 
+**Version 2 change:** Every overlay toggle loads off by default; the satellite basemap remains visible.
+
 ## Purpose
 
 Create a third public map containing the discussed updates to the original operational map while preserving the original repository and URL unchanged during this task.
@@ -31,6 +33,6 @@ The original `WRRCattle/wrr-operational-map` repository was cloned read-only at 
 
 - GitHub Pages deployment completed successfully.
 - The public page and representative current-fire, terrain-exposure, slope, and native-terrain assets returned HTTP 200.
-- The public `index.html` SHA-256 exactly matched the vault copy: `9d2c06e5e1d5d021be78f1525562d7b9ad8342eabdea95c2914336a7ee90684b`.
-- A public headless-browser test enabled the Rock/Badger zones, native-detail terrain, terrain exposure, watershed slope classes, and current fire context without page errors.
+- The public `index.html` SHA-256 exactly matched the vault copy: `e3c232c11c36c67696c7ed5f8dbafeb76ac8dffc1bfdf4eb3e02558bd5a8cd35`.
+- A public headless-browser test confirmed all 41 overlay toggles load off, the satellite basemap remains active, and no page errors occur.
 - The lower-left property summary computed to `display: none`.
