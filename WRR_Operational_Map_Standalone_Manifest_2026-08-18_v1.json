@@ -1,11 +1,12 @@
 {
   "title": "WRR / ALR Operational Map — Standalone Safety Copy",
   "prepared": "2026-08-18",
-  "status": "publication pending",
+  "status": "published and validated",
   "source_repository": "https://github.com/WRRCattle/wrr-operational-map",
   "source_commit": "62ccf97ab6ba4a2203eba65c85c6bb284b332a6b",
   "public_repository": "https://github.com/WRRCattle/wrr-operational-map-v3",
   "public_map": "https://WRRCattle.github.io/wrr-operational-map-v3/",
+  "validated_map_commit": "ac170b1a8948f4f8660450d7129c8460b08f7802",
   "safety_rule": "Separate derivative publication; no modification to the original operational-map repository during this task.",
   "included_updates": [
     "Rock Creek and Badger Creek watershed zones and LiDAR coverage",
@@ -13,5 +14,13 @@
     "Current burned-watershed terrain exposure",
     "Approximately 3-foot slope display grid with native-source limitation",
     "Lower-left property summary card hidden"
-  ]
+  ],
+  "validation": {
+    "github_pages_deployment": "pass",
+    "public_map_http_status": 200,
+    "public_index_sha256": "9d2c06e5e1d5d021be78f1525562d7b9ad8342eabdea95c2914336a7ee90684b",
+    "source_index_sha256": "9d2c06e5e1d5d021be78f1525562d7b9ad8342eabdea95c2914336a7ee90684b",
+    "public_headless_browser": "pass; required heavy layers enabled; no page errors; property summary display none",
+    "representative_public_assets": "pass; current fire data, exposure image, slope tile, and terrain tile returned HTTP 200"
+  }
 }

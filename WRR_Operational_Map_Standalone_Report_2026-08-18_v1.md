@@ -1,8 +1,12 @@
 # WRR / ALR Operational Map — Standalone Safety Copy
 
-**Prepared:** 18 August 2026 HST  
-**Status:** Publication pending  
+**Prepared:** 18 August 2026 HST
+
+**Status:** Published and validated
+
 **Source commit:** `62ccf97ab6ba4a2203eba65c85c6bb284b332a6b`
+
+**Third map:** <https://WRRCattle.github.io/wrr-operational-map-v3/>
 
 ## Purpose
 
@@ -22,3 +26,11 @@ The standalone copy contains the current operational-map interface, embedded WRR
 ## Safety Record
 
 The original `WRRCattle/wrr-operational-map` repository was cloned read-only at commit `62ccf97ab6ba4a2203eba65c85c6bb284b332a6b`. The third map is packaged and published separately as `WRRCattle/wrr-operational-map-v3`; no push or edit to the original repository is part of this task.
+
+## Validation
+
+- GitHub Pages deployment completed successfully.
+- The public page and representative current-fire, terrain-exposure, slope, and native-terrain assets returned HTTP 200.
+- The public `index.html` SHA-256 exactly matched the vault copy: `9d2c06e5e1d5d021be78f1525562d7b9ad8342eabdea95c2914336a7ee90684b`.
+- A public headless-browser test enabled the Rock/Badger zones, native-detail terrain, terrain exposure, watershed slope classes, and current fire context without page errors.
+- The lower-left property summary computed to `display: none`.
