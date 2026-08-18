@@ -1,0 +1,17 @@
+{
+  "title": "WRR / ALR Operational Map — Standalone Safety Copy",
+  "prepared": "2026-08-18",
+  "status": "publication pending",
+  "source_repository": "https://github.com/WRRCattle/wrr-operational-map",
+  "source_commit": "62ccf97ab6ba4a2203eba65c85c6bb284b332a6b",
+  "public_repository": "https://github.com/WRRCattle/wrr-operational-map-v3",
+  "public_map": "https://WRRCattle.github.io/wrr-operational-map-v3/",
+  "safety_rule": "Separate derivative publication; no modification to the original operational-map repository during this task.",
+  "included_updates": [
+    "Rock Creek and Badger Creek watershed zones and LiDAR coverage",
+    "Full current 17 August 2026 WFIGS Grasshopper Fire perimeter",
+    "Current burned-watershed terrain exposure",
+    "Approximately 3-foot slope display grid with native-source limitation",
+    "Lower-left property summary card hidden"
+  ]
+}
